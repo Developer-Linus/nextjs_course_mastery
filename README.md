@@ -18,5 +18,16 @@ include `use client` for the frontend to handle the `interactivity for such comp
 - Then for every nested folder, it must have `page.tsx` for the specific page we want to render.
 - Finally, we have `dynamic routing` where the information displayed changes based on the specific component clicked or 
 interacted with.
-- To achieve `dynamic routing`, we enclose folder name with square brackets `[]` within the parent folder where we want to implement dynamic routing and within it, create `page.tsx` for <br/>
+- To achieve `dynamic routing`, we enclose folder name with square brackets `[]` within the parent folder where we want <br/>
+to implement dynamic routing and within it, create `page.tsx` for <br/>
 for what we want to be rendered.
+
+# Layouts
+- `layout.tsx` is the parent container for all the other components in a Next.js app. It is ideal for using it to create<br/>
+components that will show up in all the other elements. 
+- If I want an additional dashboard in a specific page, I must create a `layout.tsx` in its respective folder.
+> NB: The name must be `layout.tsx`. Any other name will not work.
+
+# Route Groups
+- This is applicable if we want a specific part, let's say, navbar to appear in some pages and not in others.
+- 
